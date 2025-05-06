@@ -1,0 +1,26 @@
+app:
+  android:
+    flavorDimensions: "flavor-type"
+
+flavors:
+  dev:
+    app:
+      name: "dev App"
+    android:
+      applicationId: "com.example.dev"
+    ios:
+      bundleId: "com.example.dev"
+    macos:
+      bundleId: "com.example.dev"
+
+  prod:
+    app:
+      name: "prd App"
+    android:
+      applicationId: "com.example.prod"
+    ios:
+      bundleId: "com.example.prod"
+    macos:
+      bundleId: "com.example.prod"
+
+ide: idea
